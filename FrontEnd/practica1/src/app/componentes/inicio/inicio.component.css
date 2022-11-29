@@ -1,0 +1,52 @@
+
+@media (max-width:768px){
+#intro{
+    width:90% !important;
+}
+#equipo p{
+    display:none ;
+}
+}
+
+.service fila {
+    width:100% !important;
+    text-align: center
+}
+#bg-contacto{
+    position: relative;
+    top:-110px;
+}
+
+@media (max-wid:576){
+    .icono-wrapper{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#bg-contacto{
+    position: relative;
+    top:-180px;
+}
+
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 50px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+.carousel-inner{
+    align-items: center;
+    justify-content: center;
+    max-height: 39rem;
+}

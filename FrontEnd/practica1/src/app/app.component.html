@@ -1,0 +1,34 @@
+<header class="container-fluid bg-primary d-flex justify-content-center">
+  <p class="text-light mb-0 p-2 fs-6">Contactanos 274-131-24-20</p>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="Inicio">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="Enfermedadesrenales">Enfermedades renales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Graficas">Graficas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" routerLink="PRACTICA1">Inicio de sesión</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>
